@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Uygulama : Cards</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        .card {
+            width: 80%;
+            margin: 20px;
+            box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2);
+            border-radius: 5px;
+            transition: box-shodow 1s;
+        }
+
+        .card-image {
+            width: 100%;
+            max-height: 250px;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            transition: opacity 200ms ease;
+        }
+        .card-image:hover{
+            opacity:0.8;
+        }
+
+        .card:hover {
+            box-shadow: 0 12px 20px 0 rgba(0, 0, 0, 0.2);
+        }
+        .card-body{
+            padding: 10px 10px;
+        }
+        .card-title{
+           margin-bottom: 10px;
+            font-size: 22px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <img src="img/1.jpeg" alt="" class="card-image">
+        <div class="card-body">
+            <h4 class="card-title">Card Title</h4>
+            <p class="card-text">card Body</p>
+
+        </div>
+    </div>
+
+
+</body>
+
+</html>

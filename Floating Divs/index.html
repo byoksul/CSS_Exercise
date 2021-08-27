@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Floating Divs</title>
+    <style>
+        #container{
+            background-color: gray;
+            
+        }
+        .box {
+            width: 200px;
+            height: 200px;
+            margin: 2px;
+        }
+
+        #first {
+            float: right;
+           
+            background-color: black;
+        }
+
+        #second {
+            float: right;
+            background-color: red;
+        }
+
+        #third {
+            float: right;
+            background-color: blue;
+        }
+        .clearfix:after{
+            content: "";
+            display: block;
+            clear:both;
+        }
+        p:after{
+            content: "- deneme"
+        }
+
+    </style>
+</head>
+
+<body>
+    <div id="container" class="cleardix">
+        <div id="first" class="box"></div>
+        <div id="second" class="box"></div>
+        <div id="third" class="box"></div>
+        <div style="clear: both;"></div>
+
+    </div>
+    
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates cumque repellendus, iusto numquam ad perferendis possimus assumenda quod quisquam facilis, delectus nulla, ducimus aperiam rem sint natus eligendi magnam molestias.</p>
+
+</body>
+
+</html>

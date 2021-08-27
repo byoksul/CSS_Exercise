@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Styling Text</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Itim', cursive;
+            width: 700px;
+            margin: 30px auto;
+            font-size: 20px;
+        }
+
+        h2 {
+            text-transform: capitalize;
+
+        }
+
+        p {
+            font-size: 20px;
+            line-height: 150%;
+            word-spacing: 3px;
+            text-indent: 20px;
+            letter-spacing: 2px;
+        }
+
+        .bold {
+            font-weight: bold;
+        }
+
+        .italic {
+            font-style: italic;
+        }
+
+        .link {
+            color: aqua;
+            text-decoration: none;
+        }
+
+        p#first {
+            text-align: right;
+        }
+
+        p#second {
+            text-align: center;
+        }
+
+        p#third {
+            text-align: left;
+            column-count: 3;
+            padding: 10px;
+            column-rule: 1px solid red;
+            border: 1px solid green;
+
+        }
+
+        div {
+            text-align: center;
+        }
+        p#forth{
+            text-align:justify;
+            text-indent: 10px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <h2>Lorem ipsum dolor sit amet, consectetur adipisicing.</h2>
+
+    <p id="first">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, aspernatur vitae accusantium voluptates. Quae cumque officiis architecto <span class="bold">quaerat sapiente voluptates,</span>quaerat sapiente voluptates, nostrum!
+
+        <span class="italic"><a class="link" href="#">Assumenda sed,</a></span> quaerat nemo ut. Mollitia sequi rem culpa!
+    </p>
+    <p id="second">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, aspernatur vitae accusantium voluptates. Quae cumque officiis architecto <span class="bold">quaerat sapiente voluptates,</span>quaerat sapiente voluptates, nostrum!
+
+        <span class="italic"><a class="link" href="#">Assumenda sed,</a></span> quaerat nemo ut. Mollitia sequi rem culpa!
+    </p>
+    <p id="third">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, aspernatur vitae accusantium voluptates. Quae cumque officiis architecto <span class="bold">quaerat sapiente voluptates,</span>quaerat sapiente voluptates, nostrum!
+
+        <span class="italic"><a class="link" href="#">Assumenda sed,</a></span> quaerat nemo ut. Mollitia sequi rem culpa!
+    </p>
+    <p id="forth">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, omnis eius nostrum commodi quisquam? Inventore fugit voluptatum doloribus. Illum nihil, maiores veniam. Porro maiores suscipit libero id incidunt nisi saepe.</p>
+    <div>
+        <a href="">Lİnk1</a>
+        <a href="">Link2</a>
+        <a href="">Link3</a>
+    </div>
+
+</body>
+
+</html>

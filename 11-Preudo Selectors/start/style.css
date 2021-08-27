@@ -1,0 +1,114 @@
+p::first-line {
+    font-weight: bold;
+    color: brown;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+
+}
+
+p.about::first-line {
+    font-weight: bold;
+
+    color: burlywood;
+}
+
+p::first-letter {
+    font-size: 50px;
+}
+
+p::after {
+    content: "Aleykümselam";
+    background-color: blue;
+    display: block;
+    padding: 10px;
+}
+
+p::before {
+    content: "SelamınAleyküm";
+    background-color: gold;
+    display: block;
+    padding: 10px;
+}
+
+ul li {
+    padding: 10px;
+    margin-bottom: 10px;
+    list-style: circle;
+}
+
+
+ul li:first-child {
+    background-color: aqua;
+}
+
+ul li:last-child {
+    background-color: burlywood;
+}
+
+ul li :nth-of-type(even) {
+    border: 2px solid green;
+}
+
+ul li:nth-of-type(odd) {
+    border: 2px solid blue;
+}
+a {
+	padding: 5px 8px;
+	text-decoration: none;
+	display: block;
+	width: 80px;
+	border:1px solid gray;
+	margin-bottom: 10px;
+}
+a:link{
+    color: red;
+}
+a:visited{
+    color: gray;
+}
+a:hover{
+    
+    color: white;
+    background: green;
+}
+a:active{
+    color: green;
+    background : gold;
+}
+
+
+span{
+    display:none;
+    background: yellow;
+    padding: 20px;
+}
+
+
+div:hover span{
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
